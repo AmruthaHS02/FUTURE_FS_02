@@ -40,6 +40,12 @@ JavaScript
 3. Leads are displayed dynamically in a table.
 4. Users can delete leads when needed.
 
+## Project Pitch
+
+This project is a Client Lead Management System designed to help businesses organize and manage potential customer leads efficiently. The system allows users to store and track client information such as name, email, lead source, and status.
+
+With a simple and interactive interface, businesses can monitor their leads and update their progress through different stages such as new, contacted, and converted. This system demonstrates how web applications can support basic business workflows and improve lead tracking and management.
+
 ## Author
 
 Amrutha H S  
