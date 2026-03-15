@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Client Lead Management System</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   
+<div class="title-section">
+
+<h1 class="main-title">Client Lead Management System</h1>
+
+<p class="subtitle">Manage and track client leads efficiently</p>
+
+</div>
+
+<div class="container">
+
+<div class="form-container">
+
+<h2>Add New Lead</h2>
+
+<input type="text" id="name" placeholder="Client Name">
+
+<input type="email" id="email" placeholder="Client Email">
+
+<input type="text" id="source" placeholder="Lead Source (Website / Instagram / Referral)">
+
+<select id="status">
+
+<option value="New">New</option>
+<option value="Contacted">Contacted</option>
+<option value="Converted">Converted</option>
+
+</select>
+
+<button onclick="addLead()">Add Lead</button>
+
+</div>
+
+<div class="table-section">
+
+<h2>Leads List</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Source</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+</thead>
+
+<tbody id="leadTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
